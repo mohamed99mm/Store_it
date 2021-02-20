@@ -1,4 +1,6 @@
+@extends('layout1')
 
+@section('content')
     <form action="{{url('/a/update',$item->id)}}" method="post" style="margin: auto">
         {{csrf_field()}}
         {{method_field('PATCH')}}
@@ -21,3 +23,4 @@
             <input type="submit" class="btn btn-primary btn-block" value="Update">
         </div>
 </form>
+@endsection

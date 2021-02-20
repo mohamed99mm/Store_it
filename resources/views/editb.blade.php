@@ -1,4 +1,6 @@
+@extends('layout1')
 
+@section('content')
 
     <form action="{{url('/borrow/update',$borrow->id)}}" method="post" style="margin: auto">
         {{csrf_field()}}
@@ -19,3 +21,4 @@
             <input type="submit" class="btn btn-primary btn-block" value="Edit">
         </div>
     </form>
+@endsection

@@ -40,7 +40,7 @@
     </table>
 
 <div class="links">
-    <a href="{{url('/a')}}"  class="btn btn-primary float-middle" class="links"> Add Item  </a>
+    <a href="{{url('/s')}}"  class="btn btn-primary float-middle" class="links"> Add Item  </a>
 </br>
 </br>
     <a href="{{url('/')}}" class="btn btn-primary float-middle"class="links"> Home  </a>
